@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Dedsi.BigDataCenterBackgroundWorkers</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="8.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Dedsi.BigDataCenterBackgroundWorkers.Core\Dedsi.BigDataCenterBackgroundWorkers.Core.csproj" />
+    </ItemGroup>
+
+</Project>
