@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Dedsi.BigDataCenter.Localhost": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:8900",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Localhost"
+      }
+    }
+  }
+}

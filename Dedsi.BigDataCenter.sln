@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{649A3FFA-182F-4E56-9717-E6A9A2BEC545}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "host", "host", "{E400416D-2895-4512-9D17-90681EEC7E0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dedsi.BigDataCenter.HttpApi.Host", "host\Dedsi.BigDataCenter.HttpApi.Host\Dedsi.BigDataCenter.HttpApi.Host.csproj", "{37B135B0-DAFE-4616-B25C-1BDF32FC44A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dedsi.BigDataCenter.Infrastructure", "src\Dedsi.BigDataCenter.Infrastructure\Dedsi.BigDataCenter.Infrastructure.csproj", "{935340C4-2575-4E3F-8BAB-FE7D1D2DB61E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dedsi.BigDataCenter.HttpApi", "src\Dedsi.BigDataCenter.HttpApi\Dedsi.BigDataCenter.HttpApi.csproj", "{B7BCEE90-A864-4369-8BD2-92B10E3F2157}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dedsi.BigDataCenter.Core", "src\Dedsi.BigDataCenter.Core\Dedsi.BigDataCenter.Core.csproj", "{4CF3EDDA-3507-4B10-BA62-E9CC04CC5E60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{623E41B7-A2AB-4CE4-9CC7-12C6305C0703}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37B135B0-DAFE-4616-B25C-1BDF32FC44A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37B135B0-DAFE-4616-B25C-1BDF32FC44A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37B135B0-DAFE-4616-B25C-1BDF32FC44A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37B135B0-DAFE-4616-B25C-1BDF32FC44A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{935340C4-2575-4E3F-8BAB-FE7D1D2DB61E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{935340C4-2575-4E3F-8BAB-FE7D1D2DB61E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{935340C4-2575-4E3F-8BAB-FE7D1D2DB61E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{935340C4-2575-4E3F-8BAB-FE7D1D2DB61E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7BCEE90-A864-4369-8BD2-92B10E3F2157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7BCEE90-A864-4369-8BD2-92B10E3F2157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7BCEE90-A864-4369-8BD2-92B10E3F2157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7BCEE90-A864-4369-8BD2-92B10E3F2157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CF3EDDA-3507-4B10-BA62-E9CC04CC5E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CF3EDDA-3507-4B10-BA62-E9CC04CC5E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CF3EDDA-3507-4B10-BA62-E9CC04CC5E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CF3EDDA-3507-4B10-BA62-E9CC04CC5E60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{37B135B0-DAFE-4616-B25C-1BDF32FC44A2} = {E400416D-2895-4512-9D17-90681EEC7E0A}
+		{935340C4-2575-4E3F-8BAB-FE7D1D2DB61E} = {649A3FFA-182F-4E56-9717-E6A9A2BEC545}
+		{B7BCEE90-A864-4369-8BD2-92B10E3F2157} = {649A3FFA-182F-4E56-9717-E6A9A2BEC545}
+		{4CF3EDDA-3507-4B10-BA62-E9CC04CC5E60} = {649A3FFA-182F-4E56-9717-E6A9A2BEC545}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4324B3B4-B60B-4E3C-91D8-59576B4E26DD}
+	EndGlobalSection
+EndGlobal
