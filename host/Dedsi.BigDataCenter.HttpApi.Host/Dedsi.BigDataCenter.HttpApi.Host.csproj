@@ -18,15 +18,15 @@
     <PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" Version="8.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
 
-    <PackageReference Include="Volo.Abp.Autofac" Version="8.1.2" />
-    <PackageReference Include="Volo.Abp.Caching.StackExchangeRedis" Version="8.1.2" />
-    <PackageReference Include="Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy" Version="8.1.2" />
-    <PackageReference Include="Volo.Abp.EntityFrameworkCore.SqlServer" Version="8.1.2" />
-    <PackageReference Include="Volo.Abp.AspNetCore.Serilog" Version="8.1.2" />
-    <PackageReference Include="Volo.Abp.PermissionManagement.EntityFrameworkCore" Version="8.1.2" />
-    <PackageReference Include="Volo.Abp.SettingManagement.EntityFrameworkCore" Version="8.1.2" />
-    <PackageReference Include="Volo.Abp.AuditLogging.EntityFrameworkCore" Version="8.1.2" />
-    <PackageReference Include="Volo.Abp.TenantManagement.EntityFrameworkCore" Version="8.1.2" />
+    <PackageReference Include="Volo.Abp.Autofac" Version="8.1.3" />
+    <PackageReference Include="Volo.Abp.Caching.StackExchangeRedis" Version="8.1.3" />
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy" Version="8.1.3" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.SqlServer" Version="8.1.3" />
+    <PackageReference Include="Volo.Abp.AspNetCore.Serilog" Version="8.1.3" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.EntityFrameworkCore" Version="8.1.3" />
+    <PackageReference Include="Volo.Abp.SettingManagement.EntityFrameworkCore" Version="8.1.3" />
+    <PackageReference Include="Volo.Abp.AuditLogging.EntityFrameworkCore" Version="8.1.3" />
+    <PackageReference Include="Volo.Abp.TenantManagement.EntityFrameworkCore" Version="8.1.3" />
     
     <ProjectReference Include="..\..\src\Dedsi.BigDataCenter.HttpApi\Dedsi.BigDataCenter.HttpApi.csproj" />
     <ProjectReference Include="..\..\src\Dedsi.BigDataCenter.Infrastructure\Dedsi.BigDataCenter.Infrastructure.csproj" />
